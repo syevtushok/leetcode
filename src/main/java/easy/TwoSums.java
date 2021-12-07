@@ -51,6 +51,7 @@ import java.util.Map;
 public class TwoSums {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new TwoSums().twoSumFirstApproach(new int[]{ 2, 7, 11, 15 }, 9)));
+        System.out.println(Arrays.toString(new TwoSums().twoSumSecondApproach(new int[]{ 2, 7, 11, 15 }, 9)));
         System.out.println(Arrays.toString(new TwoSums().twoSumSecondApproach(new int[]{ 3, 2, 4 }, 6)));
         System.out.println(Arrays.toString(new TwoSums().twoSumThirdApproach(new int[]{ 3, 2, 4 }, 6)));
     }
