@@ -24,7 +24,7 @@ package easy;
 class Solution1108 {
     public static void main(String[] args) {
         System.out.println(new Solution1108().defangIPaddr("1.1.1.1"));
-        System.out.println(new Solution1108().defangIPaddr("1.1.1.1"));
+        System.out.println(new Solution1108().defangIPaddrSecondApproach("1.1.1.1"));
     }
 
     public String defangIPaddr(String address) {
