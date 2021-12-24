@@ -1,6 +1,6 @@
 package easy;
 
-class Solution1720 {
+public class Solution1720 {
 
     public int[] decode(int[] encoded, int first) {
         int[] result = new int[encoded.length + 1];
@@ -8,7 +8,6 @@ class Solution1720 {
         for (int i = 0; i < encoded.length; i++) {
             result[i + 1] = result[i] ^ encoded[i];
         }
-
 
         return result;
     }
