@@ -14,11 +14,10 @@ class Solution1614 {
 
             if (temp == '(') {
                 count++;
+                max = Math.max(count, max);
             } else if (temp == ')') {
                 count--;
             }
-
-            max = Math.max(count, max);
         }
 
         return max;
