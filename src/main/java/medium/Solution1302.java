@@ -35,6 +35,15 @@ class TreeNode {
     }
 
     @Override
+    public String toString() {
+        return "TreeNode{" +
+               "val=" + val +
+               ", left=" + left +
+               ", right=" + right +
+               '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(val, left, right);
     }
