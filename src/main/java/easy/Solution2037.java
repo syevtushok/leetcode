@@ -17,6 +17,6 @@ public class Solution2037 {
             count += Math.abs(students[i] - seats[i]);
         }
 
-        return Math.abs(count);
+        return count;
     }
 }
