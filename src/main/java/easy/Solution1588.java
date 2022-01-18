@@ -1,5 +1,9 @@
 package easy;
 
+/*
+1588. Sum of All Odd Length Subarrays
+https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+ */
 class Solution1588 {
     public int sumOddLengthSubarrays(int[] arr) {
         int sum = 0;
